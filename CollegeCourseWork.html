@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Work</title>
+    <style>
+        footer {
+        background-color: #333;
+        color: #fff;
+        text-align: right;
+        padding: 20px;}
+        header {
+            background-color: #621605;
+            color: #fff;
+            text-align: center;
+            padding: 20px;    
+        }
+    </style>
+	<script src="backend.js"></script>
+	<style>
+		#hiddenText {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<header><h1>Collegiate Course Work</h1></header>
+        <p>This is a small section that contains all of the courses that I have taken at the univeristy level. There
+            are courses from Ivy Tech, Indiana University-Kokomo, and Indiana University-East. In each heading is the number
+            of credits that I have taken within the respective subject. You may select a course from the drop down menu to get 
+            a short descrtiption of the course and some skills that I gained.
+        </p>
+        <h3>Computer Science Courses (19)</h3>
+
+        <select id="mySelect" onchange="showDescription_CS()">
+            <option value="">--Select an option--</option>
+            <option value="option1">CSCI-B100</option>
+            <option value="option2">CSCI-C101</option>
+            <option value="option3">CSCI-C201</option>
+            <option value="option4">INFO-I201</option>
+            <option value="option5">INFO-I202</option>
+        </select>
+    
+        <p id="description"></p>
+
+        <h3>Mathematics Courses (31)</h3>
+
+        <select id="Select" onchange="showDescription_Math()">
+            <option value="">--Select an option--</option>\
+            <option value="precalculus">MATH 136</option>
+            <option value="trigonometry">MATH 137</option>
+            <option value="calculusone">MATH-M215</option>
+            <option value="calculustwo">MATH-M216</option>
+            <option value="linearalgebra">MATH-M303</option>
+            <option value="calculusthree">MATH-M311</option>
+            <option value="euclideangeometry">MATH-T366</option>
+            <option value="probabilitytheory">MATH-M463</option>
+            <option value="statistics">MATH-M466</option>
+            
+        </select>
+    
+        <p id="description1"></p>
+
+        <h3>Elective Courses</h3>
+
+        <select id="Select3" onchange="showDescription_Elective()">
+            <option value="">--Select an option--</option>\
+
+            <option value="span101">SPAN 101</option>
+            <option value="span102">SPAN 102</option>
+            <option value="hist101">HIST 101</option>
+            <option value="hist102">HIST 102</option>
+            <option value="engl111">ENGL 111</option>
+            <option value="scin100">SCIN 100</option>
+            <option value="ivyt111">IVYT 111</option>
+            <option value="comm101">COMM 101</option>
+
+            <option value="educf200">EDUC-F200</option>
+            <option value="educp214">EDUC-P214</option>
+            <option value="chemc100">CHEM-C100</option>
+            <option value="chemc120">CHEM-C120</option>
+            <option value="socs100">SOC-S100</option>
+            <option value="engw221">ENG-W221</option>
+            <option value="educk205">EDUC-K205</option>
+            <option value="educw200">EDUC-W200</option>
+            <option value="busf151">BUS-F151</option>
+            <option value="musm174">MUS-M174</option>
+            <option value="physp201">PHYS-P201</option>
+        </select>
+    
+        <p id="description3"></p>
+
+        <footer>
+            <p>Drew D. Caldwell</p>
+            <p>drewcaldwell3703@gmail.com</p>
+          </footer>
+
+
+</body>
+</html>
